@@ -1,0 +1,42 @@
+#a1{
+    height: 350px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    overflow: hidden;
+}
+img{
+    display: block;
+    min-width: 100px;
+    min-height: 100px;
+}
+#i1,#i2,#i3,#i4{
+    display: block;
+    position: relative;
+    
+}
+
+
+#a2{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: aqua;
+    overflow: hidden;
+}
+.box{
+    flex-grow: 1;
+    border: 3px solid red;
+}
+.box1{
+    flex-grow: 8;
+    border: 3px solid blue;
+}
+.box2{
+    flex-grow: 5;
+    border: 3px solid blue;
+}
+
+
